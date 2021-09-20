@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "/com"
-  to = "https://konachan.com"
+  from = "/com/*"
+  to = "https://konachan.com/:splat"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
